@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button.favorite {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    outline:auto;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+button.unfavorite {    
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    outline:auto;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 300px;
+}
